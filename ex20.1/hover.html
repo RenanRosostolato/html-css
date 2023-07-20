@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        div > p{
+            display: none;
+        }
+
+/* PSEUDO CLASSES*/
+
+div:hover > p{
+            display: block;
+            color: blue;
+        }
+
+        div:hover{
+            color: red;
+        }
+
+/* fIM PSEUDO-CLASSES*/
+
+#principal{
+    background-color: lightblue;
+    color: azure;
+}
+
+.sub{
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <h1 id="principal">Exemplo de hover</h1>
+            <p class="sub">Passe o mouse sobre o texto</p>
+
+        <div>Passe o mouse aqui
+            <p>texto escondido</p>
+        </div>
+</body>
+</html>
