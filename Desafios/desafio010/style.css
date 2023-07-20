@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Idroid ;
+    src: url(fontes/idroid.otf); format:"Truetype"
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #83e1ad;
+    text-align: justify;
+    
+}
+
+header{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    color: white;
+    background-image: linear-gradient(to bottom, #83e1ad, #3ddc84,#2fa866);
+    
+}
+
+main{
+    background-color: white;
+    min-width: 320px;
+    max-width: 800px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.322);
+    
+}
+
+.slogan{
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+/*barra de navegação */
+nav>a{
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+    text-decoration: none;
+}
+/*barra de navegação */
+
+
+nav>a:hover{
+    text-decoration: underline;
+
+}
+
+#titulo{
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+h2, h3,h4{
+    background-color: #c5ebd6cb;
+    font-family: Idroid;
+}
+
+strong{
+    color: green;
+}
+
+p{
+    text-indent: 30px;
+    
+}
+
+p > a::after{
+    content: '🔗';
+    
+    }
+
+    p>a{
+        text-decoration: none;
+        color: rgb(14, 235, 6);
+        font-weight: bold;
+    }
+
+    aside>a{
+        text-decoration: none;
+        
+    }
+
+
+/*ultima parte do site*/
+
+h5{
+    background-color: #2fa866;
+    height: 10px;
+    max-width: 795px;
+    min-width: 300px;
+    border-radius:  10px 10px 0px 0px;
+    padding: 10px;
+    margin: auto;
+}
+
+aside{
+
+    background-color: #c5ebd6cb;
+    border-radius: 10px 10px 10px 10px;
+    max-width: 795px;
+    min-width: 300px;
+    border-left: 1px;
+    
+}
+
+div{
+    display: inline-block;
+    
+}
+
+
+/*ul{
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+}*/
+
+ul{
+    list-style-type: '\2714\0020\0020';
+}
+
+
+footer{
+    width: auto;
+    height: 35px;
+    padding: 10px;
+    color: white;
+    background-color: #2fa866;
+    text-align: center;
+    
+}
+
+/*ultima parte do site*/
+
+
+iframe{
+    width: 100%;
+}
+
+img.bugdroid{
+    display: block;
+    margin: auto;
+}
