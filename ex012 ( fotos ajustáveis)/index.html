@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mídias em html 5</title>
+</head>
+
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    
+        <picture>
+            <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width:1050px)" srcset="imagens/fotom.png" type="image/png">
+            <img src="imagens/foto-g.png" alt="Foto grande">
+            </picture>
+    <!-- Sempre importante deixar em primeiro lugar (tag img) a maior foto, assim como no exemplo acima -->
+
+    <h1>Reproduzindo audio</h1>
+            <p>vamos aprender a reproduzir áudios em HTML5</p>
+        <audio src="media/It Was a Time - TrackTribe.mp3" controls autoplay></audio>
+<!-- Sempre colocar as tag's controls e autoplay para tocar a música ou audio que você deseja -->
+
+<!-- pode também adicionar músicas fazendo 
+ <audio> 
+    src="" type= "audio/mp3" 
+ </audio>-->
+ 
+
+        
+</body>
+</html>
