@@ -93,10 +93,10 @@ p > a::after{
 h5{
     background-color: #2fa866;
     height: 10px;
-    max-width: 795px;
+    max-width: 1000px;
     min-width: 300px;
-    border-radius:  10px 10px 0px 0px;
-    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 11px;
     margin: auto;
 }
 
@@ -141,6 +141,7 @@ footer{
 
 iframe{
     width: 100%;
+    display: inline-block;
 }
 
 img.bugdroid{
