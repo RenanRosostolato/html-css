@@ -12,7 +12,7 @@ header{
     padding: 10px; 
     margin: 10px;
     border-radius: 7px;
-
+    min-width: 350;
 }
 h1 {
     box-shadow: 0px 2px 6px -1px black;
@@ -32,6 +32,7 @@ nav>a{
     color: white;
     margin: 10px;
     padding: 10px;
+    
 
 
     
