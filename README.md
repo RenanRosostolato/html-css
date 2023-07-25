@@ -6,6 +6,6 @@
 
 <a href ="https://renanrosostolato.github.io/Projeto-Cordel/"> Projeto Codel
 
-<a href= "https://renanrosostolato.github.io/Projeto----Android/"> Site Copiado por mim.
+<a href= "https://renanrosostolato.github.io/Projeto----Android/"> Site Copiado por mim
 
 <a href= "https://renanrosostolato.github.io/Site-Android/"> Site do Professor Guanabara
