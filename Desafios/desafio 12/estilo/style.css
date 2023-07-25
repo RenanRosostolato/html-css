@@ -57,6 +57,7 @@ section.imagem{
 }
 section.imagem >p{
   padding-left: 10px;
+  text-shadow: 1px 1px 0px black;
   
 }
 #img1{
