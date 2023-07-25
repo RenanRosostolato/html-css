@@ -4,5 +4,3 @@
  Estou aprendendo a criar sites e agora vou gerenciar meu repositórios!
 
 
-
- <a href="https://github.com/RenanRosostolato/html-css">visite meus projetos !</a>  
