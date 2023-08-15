@@ -14,11 +14,19 @@
   table{
     width: 500px;
     border-collapse: collapse;
+    position: relative;
+    
     
   }
   td, th{
     border: 1px solid black;
     padding: 10px;
+  }
+
+  thead> tr> th{
+    position: sticky;
+    top: -1px;
+    background-color: rgb(85, 82, 82);
   }
   thead, tfoot{
     background-color: rgb(114, 114, 114);
